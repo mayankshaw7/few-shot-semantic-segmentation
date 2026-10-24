@@ -43,16 +43,6 @@ The model was trained for 1000 episodes per fold and evaluated on 100 unseen-cla
 | **Fold 4** | Pottedplant, Sheep, Sofa, Train, Tvmonitor | 55.00% | 33.57% | 76.43% |
 
 *Diagnostic evaluation on the "Person" class (same-image) yielded an mIoU of 66.50% and FGIoU of 50.78%.*
-
-## 🚀 How to Run
-
-### 1. Requirements
-Ensure you have the required libraries installed. You can create a `requirements.txt` file with the following and run `pip install -r requirements.txt`:
-```text
-torch
-torchvision
-numpy
-opencv-python
 matplotlib
 tqdm
 kagglehub
